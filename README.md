@@ -1,0 +1,1 @@
+Dit is een verzamelplaats voor sketches en patches voor de Teensy- en PlugData-workshops tijdens de open dag in november 2024. 
