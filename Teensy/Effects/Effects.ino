@@ -33,7 +33,7 @@ AudioConnection patchCord8(bitcrusher1, 0, pt8211_2_1, 1);
 void setup() {
   // put your setup code here, to run once:
 
-  AudioMemory(240);
+  AudioMemory(400);
   delay1.delay(0, 50);
   delay1.delay(1, 100);
   delay1.delay(2, 200);

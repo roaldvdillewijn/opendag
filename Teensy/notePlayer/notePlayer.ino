@@ -34,7 +34,7 @@ unsigned long dur[] = {500, 1000, 250, 125, 250, 500};
 
 
 
-int loopLength = sizeOf(midiNotes) / sizeOf(midiNotes[0]);
+int loopLength = sizeof(midiNotes) / sizeof(midiNotes[0]);
 
 void setup() {
   Serial.begin(9600);
