@@ -1,0 +1,18 @@
+#N canvas 827 239 527 327 12;
+#X obj 640 635 dac~;
+#X text 684 633 Dit is de audio-output;
+#X obj 644 451 noise~;
+#X obj 645 513 gain~ 1 0 20 0 0;
+#A saved;
+#X text 677 544 dit is een volumecontroler - maak een nieuwe object en typ: gain~;
+#X obj 704 422 *~ 125;
+#X obj 704 451 +~ 250;
+#X obj 704 392 osc~ 0.05;
+#X obj 644 481 lores~ 500 0.9, f 20;
+#X connect 2 0 8 0;
+#X connect 3 0 0 0;
+#X connect 3 0 0 1;
+#X connect 5 0 6 0;
+#X connect 6 0 8 1;
+#X connect 7 0 5 0;
+#X connect 8 0 3 0;

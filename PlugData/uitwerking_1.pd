@@ -1,0 +1,18 @@
+#N canvas 827 239 527 327 12;
+#X obj 593 269 metro 500;
+#X obj 593 232 tgl 25 0 empty empty empty 17 7 0 10 #e4e4e4 #4d4d4d #373737 0 1;
+#X obj 593 304 random 12;
+#X text 668 303 kiest een willekeurig getal van 0 tot en met 11;
+#X obj 593 338 + 48;
+#X text 632 337 telt daar 48 bij op;
+#X obj 593 374 makenote 127 500;
+#X text 713 373 maak een midi-noot met velocity (volume) van 127 en duur van 500 miliseconden, f 70;
+#X obj 593 414 noteout;
+#X text 657 413 speel de noot af;
+#X text 668 268 dit is een metro \, daar komt elke 500 ms een 'bang' uit, f 75;
+#X connect 0 0 2 0;
+#X connect 1 0 0 0;
+#X connect 2 0 4 0;
+#X connect 4 0 6 0;
+#X connect 6 0 8 0;
+#X connect 6 1 8 1;
